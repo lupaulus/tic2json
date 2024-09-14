@@ -143,3 +143,16 @@ Stub applications are provided in the `embedded` folder for the following platfo
 - Raspberry Pi Pico (basic demonstration stub): **picotic** gets TIC data on RX pin, outputs formatted JSON on UART TX
 
 These are very simple stubs that (ab)use the stdio interface provided by these platforms, as a starting point example.
+
+## PME PMI RS232 Configuration
+
+You can use some RS232 Converter, like MOXA NPORT 5100 Series or other.
+
+Human readable settings: 
+Bauderate : 1200
+Data Bits : 7
+Stop Bit : 1
+Parity : Even
+Flow Control : None or XON/XOFF
+
+
