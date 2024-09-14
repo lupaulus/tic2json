@@ -2,3 +2,5 @@
 *.tab.[ch]
 *.lex.[ch]
 *.output
+*.o
+src/tic2json
