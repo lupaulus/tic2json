@@ -1,0 +1,14 @@
+[Unit]
+Description=Tic2Json Service
+After=network-online.target
+
+[Service]
+Type=simple
+User=user
+ExecStart=/usr/bin/bash /home/user/tic2json/src/starterTIC.sh
+Restart=on-failure
+TimeoutStopSec=300
+
+[Install]
+WantedBy=multi-user.target
+
